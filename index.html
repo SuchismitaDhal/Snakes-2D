@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="myCanvas"></canvas>
+    <div class="container">
+        <ul>
+            <li>Score : <span id="score"></span></li>
+            <li>Hi-Score : <span id="hiscore"></span></li>
+            <li>
+                <div class="divider end"></div>
+            </li>
+            <li class="msg end">Thanks for playing !!</li>
+        </ul>
+    </div>
+    <!-- adding script before canvas or in head results in script being executed before the canvas element is created in document and hence canvas has null value-->
+    <script src="script.js"></script>
+</body>
+
+</html>

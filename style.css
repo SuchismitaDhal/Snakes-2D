@@ -1,0 +1,46 @@
+body {
+    max-height: 1vh;
+}
+
+#myCanvas {
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+    border: 5px solid orange;
+    margin: 50px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    float: left;
+}
+
+.container {
+    padding-right: 30px;
+    padding-top: 30px;
+    float: right;
+    font-size: 1.2em;
+    max-width: 180px;
+}
+
+ul {
+    list-style-type: none;
+    max-width: 180px;
+}
+
+ul>ul {
+    list-style-type: none;
+    float: left;
+    max-width: 180px;
+}
+
+.divider {
+    max-width: inherit;
+    height: 2px;
+    background-color: gray;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+
+.end {
+    display: none;
+}
